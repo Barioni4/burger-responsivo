@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    padding-bottom: 28px;
+    display: flex;
+    border: none;
+    background: #3ebfff;
+}
+
+.logo{
+    margin-left: 4vh;
+    margin-top: 4vh;
+}
+
+.nav-bar #none{
+    display: flex;
+    position: relative;
+    left: 59%;
+    top: 5vh;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-bar #none li a{
+    justify-content: end;
+    color: azure;
+    text-decoration: none;
+    margin-right: 3vh;
+}
+
+#contact{
+    font-weight: bolder;
+    color: black;
+    font: optional;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 17px;
+    padding: 10px;
+    width: 16vh;
+    margin-left: 64%;
+    margin-top: 0vh;
+}
+
+#burger{
+    display: none;
+}
+
+/* FIM DA NAV */
+.products{
+    background: #3ebfff;
+    text-align: center;
+    z-index: 2;
+}
+
+.criative{
+    padding-top: 11vh;
+    padding-bottom: 20%;
+    position: relative;
+    font-size: 29px;
+    color: azure;
+    font-weight: bolder;
+    letter-spacing: 1vh;
+    z-index: 3;
+}
+
+.arrow{
+    position: relative;
+    z-index: 1;
+}
+
+#orange-one{
+    z-index: -1;
+    margin-top: -80vh;
+}
+
+/* FIM DA DIV "PRODUCTS" */
+#transform{
+    display: flex;
+}
+
+.texto1{
+    margin: 25vh 29vh auto 18vh;
+}   
+
+.texto1 h1{ 
+    font-weight: bolder;
+    font-size: 26px;
+    margin-bottom: 4vh;
+}
+
+.texto1 p{
+    color: lightslategrey;
+    margin-bottom: 4vh;
+}
+
+#learn{
+    color: black;   
+    font-weight: bolder;
+    font-size: 19px;
+    text-decoration: none;
+    text-shadow: 0px 4px 0px lightsalmon;
+}
+
+/* FIM DA DIV "TRANSFORM" */
+
+#stand{
+    display: flex;
+}
+
+.texto2{
+    margin: 25vh 13.4vh auto 18vh;
+}
+
+.texto2 h1{ 
+    font-weight: bolder;
+    font-size: 26px;
+    margin-bottom: 4vh;
+}
+
+.texto2 p{
+    color: lightslategrey;
+    margin-bottom: 4vh;
+}
+
+#more{
+    color: black;   
+    font-weight: bolder;
+    font-size: 19px;
+    text-decoration: none;
+    text-shadow: 0px 4px 0px violet;
+}
+
+/* FIM DA DIV "STAND" */
+.desing{
+    display: flex;
+    text-align: center;
+    z-index: 0;
+}
+
+.image-desing{
+    position: relative;
+    bottom: -21vh;
+    z-index: -1;
+}
+
+#graphic{
+    position: relative;
+    z-index: 3;
+    top: -21vh;
+}
+
+#graphic h1{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#graphic p{
+    margin-bottom: 3vh
+}
+
+/* FIM DA DIV "GRAPHIV" */
+.image-photography{
+    position: relative;
+    bottom: -21vh;
+    z-index: -1;
+}
+
+#photography{
+    position: relative;
+    z-index: 3;
+    top: -21vh;
+}
+
+#photography h1{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#photography p{
+    margin-bottom: 3vh
+}
+
+/* FIM DAS DIVs "DESING" E "PHOTOGRAPHY" */
+#client{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    text-align: center;
+}
+
+#client h1{
+    font-size: 26px;
+    color: lightsteelblue;
+}
+
+/* FIM DA DIV "CLIENT" */
+#testimonials{
+    display: flex;
+    justify-content: center;
+}
+
+#testimonials img{
+    border-radius: 90%;
+}
+
+/* FIM DAS CONFIGURAÇÕES DA DIV "TESTIMONIALS */
+#emily{
+    text-align: center;
+}
+
+#emily p{
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    font-size: 14px;
+}
+
+#emily h1{
+    font-size: larger;  
+}
+
+#emily h2{
+    font-size: large;
+    color: rgba(176, 196, 222, 0.854);
+    margin-bottom: 19vh;
+}
+
+/* FIM DA DIV "EMILY" */
+#thomas{
+    text-align: center;
+    margin-left: 23vh;
+    margin-right: 23vh;
+}
+
+#thomas p{
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    font-size: 14px;
+}
+
+#thomas h1{
+    font-size: larger;  
+}
+
+#thomas h2{
+    font-size: large;
+    color: rgba(176, 196, 222, 0.854);
+    margin-bottom: 19vh;
+}
+
+/* FIM DA DIV "THOMAS" */
+#jennie{
+    text-align: center;
+}
+
+#jennie p{
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    font-size: 14px;
+}
+
+#jennie h1{
+    font-size: larger;  
+}
+
+#jennie h2{
+    font-size: large;
+    color: rgba(176, 196, 222, 0.854);
+    margin-bottom: 19vh;
+}
+
+/* FIM DAS DIVs "JENNIE" E"TESTIMONIALS" */
+#images{
+    display: flex;
+    margin-top: 8vh;
+}
+
+/* FIM DA DIV "IMAGES" */
+footer{
+    background: #89d0c0;
+    padding-bottom: 20vh;
+}
+
+.under-logo{
+    margin-left: 45%;
+    margin-top: 12vh;
+}
+
+.nav-down{
+    padding-bottom: 28px;
+    display: flex;
+    border: none;
+}
+
+.nav-down ul{
+    display: flex;
+    position: relative;
+    left: 40%;
+    top: 5vh;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-down ul li a{
+    justify-content: center;
+    color: #3c5d55;
+    text-decoration: none;
+    margin-right: 10vh;
+}
+
+#icons{
+    position: relative;
+    top: 8vh;
+    left: 44.5%;
+}
+
+.icone{
+    margin-right: 3vh;
+}
+
+@media (max-width:768px){
+    .nav-bar{
+        padding-bottom: 28px;
+        display: flex;
+        max-width: 768px;
+        width: 110%;
+    }
+
+    .nav-bar .logo{
+        position: relative; 
+    }
+
+    .nav-bar #none{
+        display: none;
+    }
+
+    #burger{
+        display: block;
+        position: relative;
+        left: 47%;
+        top: 5%;
+        border-radius: 18px;
+        background: orange;
+        border: none;
+        text-decoration: underline;
+        padding: 12px;
+    }
+
+    .criative{
+        position: relative;
+        right: -3vh;
+    }
+
+    #orange-one{
+        width: 110%;
+    }
+
+    #transform{
+        display: grid;
+        flex-direction: row-reverse;
+    }
+    
+    #transform img{
+        width: 110%;
+        height: 70%;
+        position: relative;
+        top: -70vh;
+    }
+
+    .criative{
+        position: relative;
+        left: 5%;
+    }
+
+    .arrow{
+        position: relative;
+        left: 5%;
+    }
+    
+    .texto1{
+        text-align: center;
+        position: relative;
+        left: 5%;
+        top: 38vh;
+    }
+
+    #stand{
+        display: grid;
+    }
+
+    #stand img{
+        width: 110%;    
+        height: 80%;
+        position: relative;
+        top: -40vh;
+    }
+
+    .texto2{
+        text-align: center;
+        position: relative;
+        left: 3vh;
+        top: -60vh;
+    }
+
+    .desing{
+        display: grid;
+        position: relative;
+        top: -20vh;
+    }
+
+    #graphic h1{
+        position: relative;
+        left: 5vh;
+        top: -3vh;
+    }
+
+    #graphic p{
+        position: relative;
+        left: 5vh;
+        top: -3vh;
+    }
+
+    .image-desing{
+        width: 110%;
+        height: 80%;
+    }
+
+    #photography h1{
+        position: relative;
+        left: 5vh;
+        top: -25vh;
+    }
+
+    #photography p{
+        position: relative;
+        left: 5vh;
+        top: -25vh;
+    }
+
+    .image-photography{
+        width: 110%;
+        height: 80%;
+        position: relative;
+        top: -1vh;
+    }
+
+    #testimonials{
+        display: grid;
+    }
+
+    #images{
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+    }
+
+    #images img{
+        width: 110%;
+    }
+
+    .under-logo{
+        position: relative;
+        right: 7%;
+    }
+
+    .nav-down{
+        position: relative;
+        right: 13%;
+    }
+
+    #icons{
+        position: relative;
+        right: 13%;
+    }
+}
